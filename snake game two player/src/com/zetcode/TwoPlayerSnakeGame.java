@@ -251,13 +251,4 @@ public class TwoPlayerSnakeGame extends JPanel implements ActionListener, KeyLis
 
     @Override
     public void keyReleased(KeyEvent e) {}
-
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Two Player Snake Game");
-        TwoPlayerSnakeGame game = new TwoPlayerSnakeGame(600, 600);
-        frame.add(game);
-        frame.pack();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-    }
 }
